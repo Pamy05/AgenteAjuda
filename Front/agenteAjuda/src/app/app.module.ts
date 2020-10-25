@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {HttpClientModule} from '@angular/common/http' 
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,7 +9,8 @@ import { LocalComponent } from './local/local.component';
 import { FamiliaComponent } from './familia/familia.component';
 import { ImcComponent } from './imc/imc.component';
 import { GameComponent } from './game/game.component';
-import { CadastroFamiliaComponent } from './cadastro-familia/cadastro-familia.component';
+import { PostFamiliaComponent } from './post-familia/post-familia.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { CadastroFamiliaComponent } from './cadastro-familia/cadastro-familia.co
     FamiliaComponent,
     ImcComponent,
     GameComponent,
-    CadastroFamiliaComponent
+    PostFamiliaComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CadastroFamiliaComponent } from './cadastro-familia.component';
+import { PostFamiliaComponent } from './post-familia.component';
 
-describe('CadastroFamiliaComponent', () => {
-  let component: CadastroFamiliaComponent;
-  let fixture: ComponentFixture<CadastroFamiliaComponent>;
+describe('PostFamiliaComponent', () => {
+  let component: PostFamiliaComponent;
+  let fixture: ComponentFixture<PostFamiliaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CadastroFamiliaComponent ]
+      declarations: [ PostFamiliaComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CadastroFamiliaComponent);
+    fixture = TestBed.createComponent(PostFamiliaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

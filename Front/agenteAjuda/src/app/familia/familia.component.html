@@ -1,1 +1,12 @@
+<div class="row d-flex align-items-end">
 
+    <div class="col-md-6">
+      <div class="form-group m-0">
+        <label class="text-monospace" for="tema">Escolha um tema ou <a routerLink='/cadastroFamilia'>Cadastre um novo</a></label>
+        <select name="tema" id='tema' class="form-control" [(ngModel)]='familia.idFamilia' (change)='findByIdFamilia()'>
+          <option *ngFor='let item of listaFamilia' value={{item.id}}>
+            {{item.descricao}}
+          </option>
+        </select>
+      </div>
+    </div>
