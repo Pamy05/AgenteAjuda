@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GameComponent } from './game.component';
+import { ImcComponent } from './imc.component';
 
-describe('GameComponent', () => {
-  let component: GameComponent;
-  let fixture: ComponentFixture<GameComponent>;
+describe('ImcComponent', () => {
+  let component: ImcComponent;
+  let fixture: ComponentFixture<ImcComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GameComponent ]
+      declarations: [ ImcComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GameComponent);
+    fixture = TestBed.createComponent(ImcComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

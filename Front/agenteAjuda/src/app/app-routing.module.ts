@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { FamiliaComponent } from './familia/familia.component';
-import { GameComponent } from './game/game.component';
 import { HomeComponent } from './home/home.component';
 import { ImcComponent } from './imc/imc.component';
 import { LocalComponent } from './local/local.component';
@@ -13,7 +12,6 @@ const routes: Routes = [
   {path:'local', component: LocalComponent},
   {path:'familia', component: FamiliaComponent},
   {path:'imc', component: ImcComponent},
-  {path:'game', component: GameComponent},
   {path: 'cadastroFamilia', component: PostFamiliaComponent}
 ];
 

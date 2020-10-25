@@ -8,7 +8,6 @@ import { HomeComponent } from './home/home.component';
 import { LocalComponent } from './local/local.component';
 import { FamiliaComponent } from './familia/familia.component';
 import { ImcComponent } from './imc/imc.component';
-import { GameComponent } from './game/game.component';
 import { PostFamiliaComponent } from './post-familia/post-familia.component';
 import { FormsModule } from '@angular/forms';
 
@@ -19,7 +18,6 @@ import { FormsModule } from '@angular/forms';
     LocalComponent,
     FamiliaComponent,
     ImcComponent,
-    GameComponent,
     PostFamiliaComponent
   ],
   imports: [
