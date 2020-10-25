@@ -1,0 +1,31 @@
+.principal {
+    background-color: #3FB8AF;
+    margin: 0!important;
+}
+body{margin: 0px!important;}
+.buttonEnter {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #836902;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #EEDB7B;
+    border: solid #EEDB7B 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+
+ .buttonEnter:hover {
+    background: #DBC760;
+    border: double #876C01 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }

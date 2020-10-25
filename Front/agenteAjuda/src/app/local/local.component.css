@@ -1,0 +1,29 @@
+select{
+    width: 20%;
+}
+.buttonContinue {
+    margin: 4px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #056059;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #3FB8AF;
+    border: solid #015E57 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .buttonContinue:hover {
+    background: #10B3A7;
+    border: double #036A62 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
